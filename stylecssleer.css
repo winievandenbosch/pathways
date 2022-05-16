@@ -1,0 +1,26 @@
+.container {
+  background: green;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+div {
+  background: blue;
+  height: 33.3%;
+  width: 33.3%;
+  margin: auto;
+}
+
+p {
+  color: yellow;
+}
+
+p {
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}

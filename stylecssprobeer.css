@@ -1,0 +1,63 @@
+body {
+    background: #222222;
+}
+
+.box {
+    height: 350px;
+    width: 675px;
+    background: #444444;
+    border: 3px black solid;
+    display: block;
+    position: relative;
+    left: 45px;
+    top: 50px;
+}
+
+.yellowbutton {
+    height: 300px;
+    width: 300px;
+    background: #7c7c4c;
+    border-radius: 100%;
+    border: 3px black solid;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+}
+
+.yellowbutton:hover {
+    background: #4c4c7c;
+}
+
+.bluebutton {
+    height: 300px;
+    width: 300px;
+    background: #4c4c7c;
+    border-radius: 100%;
+    border: 3px black solid;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+}
+
+.bluebutton:hover {
+    background: #7c7c4c;
+}
+
+.movingbutton {
+    height: 50px;
+    width: 100px;
+    background: #777777;
+    border-radius: 100%;
+    border: 3px #555555 solid;
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+

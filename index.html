@@ -1,15 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pathways - Index</title>
+    <title>HTML Cheat Sheet</title>
 </head>
 
 <body>
-    cssrainbow2.html
+    <!--Headings-->
+    <h1>Heading Een</h1>
+    <h2>Heading Twee</h2>
+    <h3>Heading Drie</h3>
+    <h4>Heading Vier</h4>
+    <h5>Heading Vijf</h5>
+    <h6>Heading Zes</h6>
+    <!--Paragraphs-->
+    <p><a href="https://nl.wikipedia.org/wiki/Lorem_ipsum" target="'_blank">Lorem ipsum</a> dolor sit amet consectetur
+        adipisicing elit.
+        Dicta minus assumenda soluta inventore odio culpa <strong>ex labore unde omnis,</strong>
+        aspernatur <em>molestiae nemo beatae dolore</em> quis voluptates sunt,
+        facilis architecto ullam.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Deserunt temporibus amet quidem voluptatem,
+        <strong>sed</strong> voluptas <em>ab quaerat facere aliquid</em> neque modi natus minima fugiat
+        iste ipsa officiis distinctio! Deserunt, nihil!
+    </p>
+    <!--Lists-->
+    <ul>
+        <li>Een</li>
+        <li>Twee</li>
+        <li>Drie</li>
+        <li>Vier</li>
+    </ul>
+    <ol>
+        <li>Een</li>
+        <li>Twee</li>
+        <li>Drie</li>
+        <li>Vier</li>
+    </ol>
+    <!--Tables-->
+    <table>
+        <thead>
+            <tr>
+                <th>Naam</th>
+                <th>Adres</th>
+                <th>Woonplaats</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aad</td>
+                <td>Caravanlaan 1</td>
+                <td>Circusstad</td>
+            </tr>
+            <tr>
+                <td>Bas</td>
+                <td>Caravanlaan 1</td>
+                <td>Circusstad</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <!--Forms-->
+    <form action="post.php" method="POST">
+        <div>
+            <label>Naam</label>
+            <input type="text" name="Naam">
+        </div>
+        <div>
+            <label>Adres</label>
+            <input type="text" name="Adres">
+        </div>
+        <div>
+            <label>Woonplaats</label>
+            <input type="text" name="Woonplaats">
+        </div>
+        <div>
+            <label>Geboortedatum</label>
+            <input type="date" name="Geboortedatum">
+        </div>
+        <br>
+        <div>
+            <label>E-mail</label>
+            <input type="email" name="Email">
+        </div>
+        <br>
+        <div>
+            <label>Cijfer 1</label>
+            <select name="Cijfer1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div>
+            <label>Cijfer 2</label>
+            <input type="number" name="Cijfer2" value="10">
+        </div>
+        <div>
+            <label>Bericht</label>
+            <textarea name="Bericht" placeholder="HALLO"></textarea>
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Verstuur">
+    </form>
+    <br>
+    <!--Images-->
+    <a href="1-1.jpg" target="_blank">
+        <img src="1-1.jpg" alt="Pech, 1-1 weg" width="800"></a>
+    <a href="1-2.jpg" target="_blank">
+        <img src="1-2.jpg" alt="Pech, 1-2 weg" width="25"></a>
+    <br>
+    <!--Quotations-->
+    <blockquote cite="reset.html">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, reiciendis?
+    </blockquote>
+    <p><cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, error?</cite></p>
+    <p>Dit is reclame voor <abbr title="Kentucky Fried Chicken">KFC</abbr>.</p>
+    <!--Button-->
+    <button>KLIK</button>
+    <button>KLIK</button>
+    <button>KLIK</button>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <a href="semantics.html">SEMANTIC TAGS</a>
+    <br>
+    <br>
 </body>
 
 </html>

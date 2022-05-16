@@ -1,0 +1,46 @@
+body {
+    background-color: #bbaa66
+}
+
+.outer {
+    width: 480px;
+    height: 480px;
+    background-color: white;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.inner {
+    width: 440px;
+    height: 440px;
+    background-color: lightblue;
+    border: 5px black solid;
+    border-radius: 15px;
+    position: relative;
+    left: 4.17%;
+    top: 4.17%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    position: relative;
+    left: 25%;
+    top: 5px;
+    box-sizing: border-box;
+    border: 5px black solid;
+}
+
+h1 {
+    font-size: 33px;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+}

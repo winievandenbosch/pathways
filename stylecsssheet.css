@@ -1,0 +1,281 @@
+/* RESET:
+    *{
+        margin: 0;
+        padding: 0;
+    }
+*/
+
+.clearfloat {
+    clear: both;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+#topbutton {
+    background-color: #7780aa;
+    padding: 12px 24px;
+    font-family: "Courier New";
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+h1 {
+    color: green;
+    background-color: #eeee88;
+}
+
+.p1 p {
+    color: coral;
+    background-color: #252560;
+    font-family: Webdings;
+    font-size: 30px;
+    font-weight: 750;
+    /* font: 900 30px Webdings; */
+    line-height: 0.4em;
+}
+
+.box1 {
+    color: blueviolet;
+    background-color: white;
+    width: 33%;
+    text-align: center;
+    padding: 30px;
+    border-top: 10px #000000 solid;
+    border-bottom: 10px #000000 solid;
+    border-left: 10px #666666 solid;
+    border-right: 10px #666666 solid;
+    /* border: 10px green solid; */
+    margin: auto;
+}
+
+.box2 {
+    font-family: Tahoma;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: overline dashed black;
+    text-transform: capitalize;
+    color: red;
+    width: 50%;
+    text-align: right;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 5px green dotted;
+    border-radius: 30px;
+    padding: 15px 50px;
+}
+
+.form {
+    margin-left: 30px;
+    margin-bottom: 50px;
+    padding: 15px;
+    width: 30%;
+    border: 2px black solid;
+    display: inline-block;
+}
+
+.form label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.form input,
+.form textarea,
+.form select {
+    width: 100%;
+}
+
+.field {
+    padding-bottom: 10px;
+}
+
+#banaan {
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    left: 355px;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px black dashed;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#mainblock {
+    float: left;
+    width: 85%;
+    background-color: rgb(244, 240, 240);
+    border: 1px black solid;
+    padding: 25px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 15%;
+    color: maroon;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.positionbox {
+    float: left;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 15px;
+    position: relative;
+    background-image: url(bubbles.jpg);
+    background-position: center center;
+}
+
+.positionbox h2 {
+    position: absolute;
+    top: 260px;
+    left: 100px;
+    font-weight: bolder;
+    background-color: #55bbee;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.positionbox h3 {
+    position: absolute;
+    top: 90px;
+    left: 440px;
+    font-weight: bolder;
+    background-color: #55bbee;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.pseudo {
+    float: left;
+    margin-top: 130px;
+    margin-left: 60px;
+}
+
+.pseudo li:first-child {
+    background: green;
+}
+
+.pseudo li:last-child {
+    background: red
+}
+
+.pseudo li:nth-child(5) {
+    background: steelblue;
+}
+
+.pseudo li:nth-child(even) {
+    background: grey;
+    font-weight: bold;
+}
+
+.links {
+    padding-top: 30px;
+    margin-bottom: 75px;
+}
+
+.links h2 {
+    margin-left: 25px;
+}
+
+.links ol {
+    list-style: lower-greek;
+}
+
+.links li {
+    padding: 3px;
+}
+
+/* FADING COLOR BUTTONS */
+
+.buttonred {
+    border-radius: 100%;
+    transition-property: background-color;
+    transition-duration: 12s;
+}
+
+.buttonred:hover {
+    transition-duration: 0s;
+    background-color: red;
+}
+
+.buttonorange {
+    border-radius: 100%;
+    transition-property: background-color;
+    transition-duration: 12s;
+}
+
+.buttonorange:hover {
+    transition-duration: 0s;
+    background-color: orange;
+}
+
+.buttonyellow {
+    border-radius: 100%;
+    transition-property: background-color;
+    transition-duration: 12s;
+}
+
+.buttonyellow:hover {
+    transition-duration: 0s;
+    background-color: yellow;
+}
+
+.buttongreen {
+    border-radius: 100%;
+    transition-property: background-color;
+    transition-duration: 12s;
+}
+
+.buttongreen:hover {
+    transition-duration: 0s;
+    background-color: green;
+}
+
+.buttonblue {
+    border-radius: 100%;
+    transition-property: background-color;
+    transition-duration: 12s;
+}
+
+.buttonblue:hover {
+    transition-duration: 0s;
+    background-color: blue;
+}
+
+.buttonindigo {
+    border-radius: 100%;
+    transition-property: background-color;
+    transition-duration: 12s;
+}
+
+.buttonindigo:hover {
+    transition-duration: 0s;
+    background-color: indigo;
+}
+
+.buttonviolet {
+    border-radius: 100%;
+    transition-property: background-color;
+    transition-duration: 12s;
+}
+
+.buttonviolet:hover {
+    transition-duration: 0s;
+    background-color: violet;
+}

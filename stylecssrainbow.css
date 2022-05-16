@@ -1,0 +1,148 @@
+body {
+    background-color: black;
+}
+
+.window {
+    height: 800px;
+    width: 800px;
+    background-color: #704030;
+    position: absolute;
+    top: 75px;
+    left: 100px;
+}
+
+.sky {
+    height: 80%;
+    width: 80%;
+    background-color: #5070bb;
+    border: 3px black solid;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.grass {
+    height: 40%;
+    width: 100%;
+    background-color: #50aa50;
+    border-top: 3px black solid;
+    position: absolute;
+    bottom: 0%;
+}
+
+.red {
+    height: 90%;
+    width: 90%;
+    background-color: grey;
+    border: 3px black solid;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -0%;
+    left: 5%;
+}
+
+.red:hover {
+    transition-property: background-color;
+    transition-duration: 20s;
+    background-color: red;
+}
+
+.orange {
+    height: 90%;
+    width: 90%;
+    background-color: grey;
+    border: 3px black solid;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+.orange:hover {
+    transition-property: background-color;
+    transition-duration: 20s;
+    background-color: orange;
+}
+
+.yellow {
+    height: 89%;
+    width: 89%;
+    background-color: grey;
+    border: 3px black solid;
+    border-radius: 100%;
+    margin: 5.5%;
+}
+
+.yellow:hover {
+    transition-property: background-color;
+    transition-duration: 20s;
+    background-color: yellow;
+}
+
+.green {
+    height: 87.5%;
+    width: 87.5%;
+    background-color: grey;
+    border: 3px black solid;
+    border-radius: 100%;
+    margin: 6.25%;
+}
+
+.green:hover {
+    transition-property: background-color;
+    transition-duration: 20s;
+    background-color: green;
+}
+
+.blue {
+    height: 86%;
+    width: 86%;
+    background-color: grey;
+    border: 3px black solid;
+    border-radius: 100%;
+    margin: 7%;
+}
+
+.blue:hover {
+    transition-property: background-color;
+    transition-duration: 20s;
+    background-color: blue;
+}
+
+.indigo {
+    height: 84.5%;
+    width: 84.5%;
+    background-color: grey;
+    border: 3px black solid;
+    border-radius: 100%;
+    margin: 8.25%;
+}
+
+.indigo:hover {
+    transition-property: background-color;
+    transition-duration: 20s;
+    background-color: indigo;
+}
+
+.violet {
+    height: 80%;
+    width: 80%;
+    background-color: grey;
+    border: 3px black solid;
+    border-radius: 100%;
+    margin: 10%;
+}
+
+.violet:hover {
+    transition-property: background-color;
+    transition-duration: 20s;
+    background-color: violet;
+}
+
+.sky2 {
+    height: 75%;
+    width: 75%;
+    background-color: #5070bb;
+    border: 3px black solid;
+    border-radius: 100%;
+    margin: 12.5%;
+}
